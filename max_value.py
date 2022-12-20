@@ -7,8 +7,9 @@
 # number of all of them
 
 
-import constants
 import random
+
+import constants
 
 
 # This function finds and returns the max value of an array
@@ -41,6 +42,7 @@ def main():
 
     # Calls function to find the highest number in the list
     max_number = find_max_value(list_of_integers)
+
 
     # Displays the max number to the console
     print(f"The max value: {max_number}")
