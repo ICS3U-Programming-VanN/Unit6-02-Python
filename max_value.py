@@ -15,7 +15,7 @@ import constants
 # This function finds and returns the max value of an array
 def find_max_value(random_integers_list):
     # Declared Variable
-    highest_number = 0
+    highest_number = -1
 
     # Goes through each index of the list to determine the highest number
     for index in range(constants.MAX_LIST_SIZE):
@@ -42,7 +42,6 @@ def main():
 
     # Calls function to find the highest number in the list
     max_number = find_max_value(list_of_integers)
-
 
     # Displays the max number to the console
     print(f"The max value: {max_number}")
